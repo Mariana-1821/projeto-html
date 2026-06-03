@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        body {
+            background-color: rgb(255, 220, 249)
+        }
+    </style>
+</head>
+
+<body>
+    <header>
+        <h1><span style="color:rgb(226, 93, 186)">Cadastro</span></h1>
+    </header>
+
+    <main>
+    <nav>
+        <ul>
+            <li><a href="galeria.html">Galeria</a></li>
+            <li><a href="contato.html">Contato</a></li>
+        </ul>
+    </nav>
+
+    </main>
+
+    <form>
+        <label for="name">Nome:</label><br>
+        <input type="text" id="name" name="name" required>
+        <br><br>
+
+        <label for="email">Email:</label><br>
+        <input type="email" id="email" name="email" required>
+        <br><br>
+
+        <label for="password">Senha:</label><br>
+        <input type="password" id="password" name="password" required>
+        <br><br>
+
+        <label for="data">Data de nascimento:</label><br>
+        <input type="date" id="data" name="data" required>
+        <br><br>
+
+        <label for="idade">Idade:</label><br>
+        <input type="number" id="idade" name="idade" required>
+        <br><br>
+
+        <label for="telefone">Telefone:</label><br>
+        <input type="tel" id="telefone" name="telefone" required>
+        <br><br>
+
+        <label for="genero">Gênero:</label><br>
+        <input type="radio" name="genero" value="feminino" required> Feminino
+        <input type="radio" name="genero" value="masculino" required> Masculino
+        <input type="radio" name="genero" value="outro" required> Outro
+        <br><br>
+
+        <label for="interesses">Interesses:</label><br>
+        <input type="checkbox" id="interesses1" name="interesses" value="leitura"> Leitura
+        <input type="checkbox" id="interesses2" name="interesses" value="musica"> Música
+        <input type="checkbox" id="interesses3" name="interesses" value="animes"> Animes
+        <br><br>
+
+        <label for="cidade">Cidade:</label><br>
+        <select id="cidade" name="cidade" required>
+            <option value="">Selecione sua cidade</option>
+            <option value="timoteo">Timóteo</option>
+            <option value="toquio">Tóquio</option>
+            <option value="pequim">Pequim</option>
+            <option value="xique-xique">Xique-Xique</option>
+        </select>
+        <br><br>
+
+        <label for="comentarios">Comentários:</label><br>
+        <textarea id="comentarios" name="comentarios" rows="4" cols="50"></textarea>
+        <br><br>
+
+        <button type="submit">
+            Enviar
+        </button>
+
+        <button type="reset">
+            Limpar
+        </button>
+
+    </form>
+<body>
+     
+    <footer>
+        <p>Mariana Lima 202 - 2026.</p>
+    </footer>
+</body>
+</html>
